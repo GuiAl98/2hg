@@ -1,0 +1,1192 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+
+.body{
+    margin: 0 30px
+}
+
+/*Menú*/
+nav{
+    background-color: #F6F8F9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 30px 8px 30px;
+    width: 1374px;
+    align-items: center;
+}
+
+.burger{
+    display: none;
+}
+
+.nav-logo img{
+    height: 56px;
+}
+
+.nav-list ul{
+    list-style: none;
+}
+
+.nav-list li{
+    display: inline;
+    margin-left: 39px;
+}
+
+.nav-list a{
+    color: #959798;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.activo{
+    color: #000 !important;
+}
+
+.cont-menu{
+    display: none;
+}
+
+/*Carrusel*/
+.img1{
+    background: url(img/carrusel1.png);
+}
+
+.img2{
+    background: url(img/industrial.png);
+}
+
+.img3{
+    background: url(img/arrendamiento.png);
+}
+
+.img2 .q-box{
+    background-color: #253B72;
+}
+
+.img3 .q-box{
+    background-color: #E2B739;
+}
+
+.img2 .text-carrusel{
+    float: right;
+    margin-right: 320px;
+    margin-left: 0px;
+}
+
+
+.img2{
+    background-position: left !important;
+}
+
+.carrusel{
+    background-size: cover;
+    background-position: center;
+    height: 564px;
+}
+
+.sig-ant{
+    height: 100%;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.anterior, .siguiente, .text-carrusel{
+    display: inline-block;
+}
+
+.anterior{
+    position: absolute;
+    left: 190px;
+    top: 260px;
+    cursor: pointer;
+}
+
+.siguiente{
+    position: absolute;
+    right: 190px;
+    top: 260px;
+    cursor: pointer;
+}
+
+.text-carrusel{
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.q-box{
+    background-color: #EF412E;
+    margin-bottom: 125px;
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    padding: 15px 17px;
+    font-size: 15px;
+    width: 443px;
+}
+
+.q-box img{
+    height: 16px;
+    width: 16px;
+}
+
+.unidadNegocios{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 564px;
+}
+
+.colores{
+    display: flex;
+}
+
+.color1{
+    width: 33.33%;
+    height: 33px;
+    background-color: #EF412E;
+}
+
+.color2{
+    width: 33.33%;
+    height: 33px;
+    background-color: #253B72;
+}
+
+.color3{
+    width: 33.33%;
+    height: 33px;
+    background-color: #E2B739;
+}
+
+.mobile-bx{
+    display: none;
+}
+
+/*Grupo 4HG*/
+.grupo4hg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 62px;
+    margin-bottom: 55px;
+    column-gap: 21px;
+}
+
+.g4hg{
+    max-width: 352px;
+    padding-right: 18px;
+    border-right: 2px solid #EBEDED;
+}
+
+h4{
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+.g4hg p{
+    font-size: 18px;
+}
+
+.g4hg-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    column-gap: 38px;
+    row-gap: 32px;
+}
+
+.coeu{
+    display: flex;
+    flex-direction: column;
+}
+
+.cant{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.plus{
+    color: #EF412E;
+}
+
+.um{
+    font-size: 30px;
+}
+
+.img-4hg{
+    text-align: center;
+}
+
+.desc{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Nuestras Empresas*/
+.nuestrasEmpresas{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.nEmpresas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-bottom: 145px;
+}
+
+.title{
+    grid-column: 1/7;
+}
+
+h3{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.width-com{
+    max-width: 1368px;
+}
+
+.sociosCom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 65px;
+    flex-wrap: wrap;
+    margin-bottom: 177px;
+}
+
+/*Footer*/
+footer{
+    background-color: #A6ADB4;
+    padding: 54px 0 76px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 1290px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 0 30px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 57px;
+    row-gap: 8px;
+}
+
+.info a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #CBD0D3;
+}
+
+.email input{
+    border: 2px solid #AFB5BB;
+    border-radius: 6px;
+    background-color: #A6ADB4;
+    font-size: 16px;
+    color: #CBD0D3;
+    padding: 10px 20px;
+    width: 238px;
+    height: 15px;
+    margin-bottom: 16px;
+}
+
+.email div{
+    color: #CBD0D3;
+    font-size: 11px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    margin-top: 10px;
+}
+
+/*Quienes somos*/
+/*Somos un grupo*/
+.quienesSomos{
+    background: url(img/nuesof.png);
+    background-size: cover;
+    background-position: center;
+    height: 564px;
+}
+
+.quienesSomosTit{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    width: 564px;
+}
+
+.somosGrupo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.somosGrupoCont{
+    max-width: 1280px;
+}
+
+.somosGrupoCont p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/*Cultura diferencial*/
+
+.culturaDiferencial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 77px;
+}
+
+.culturaDiferencialCont{
+    max-width: 1280px;
+    background-color: #253B72;
+    color: #fff;
+}
+
+.cultura-bx{
+    padding: 136px 330px 77px 330px;
+}
+
+.cultura-bx h2{
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.cultura-bx p{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.culturaDiferencialCont .frase{
+    font-size: 20px;
+    text-align: center;
+}
+
+.culturaDiferencialCont h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+/* Nuestras Oficinas */
+.nuestrasOficinas{
+    display: flex;
+    justify-content: center;
+}
+
+.nuestrasOficinaCont{
+    max-width: 1280px;
+    margin-bottom: 79px;
+}
+
+.nuestrasOficinaCont h2{
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.localizaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.oficinas{margin-top: 90px;}
+
+.oficinas ul{
+    font-size: 16px;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.oficinas li{
+    margin-bottom: 5px;
+}
+
+/* Contactanos */
+/* Contactanos */
+.contacto{
+    background: url(img/contacto.png);
+    background-position: center;
+    background-size: cover;
+    height: 564px;
+}
+
+.alcance{
+    font-size: 60px;
+    width: 564px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contactanos{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 122px;
+}
+
+.contactanosCont{
+    max-width: 1060px;
+}
+
+.contactanos h2{
+    font-size: 70px;
+}
+
+.contactanosInput{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 56px;
+    row-gap: 25px;
+    margin-bottom: 25px;
+}
+
+.inputCont{
+    display: flex;
+    flex-direction: column;
+    width: 501px;
+}
+
+.textarea{
+    grid-row: 2/4;
+    grid-column: 2/3;
+}
+
+.inputCont label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.inputCont input{
+    border: 1px solid #EBEDED;
+    border-radius: 6px;
+    height: 56px;
+}
+
+.inputCont #contenido{
+    height: 174px;
+    border: 1px solid #EBEDED;
+    border-radius: 6px;
+    resize: none;
+}
+
+.enviar{
+    background-color: #FA6980;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 19px 82px;
+    float: right;
+    border: none;
+}
+
+/*Impacto Social*/
+
+/*imapcto Social*/
+.impactoSocial{
+    background: url(img/impacto.png);
+    background-position: center;
+    background-size: cover;
+    height: 564px;
+}
+
+.impact{
+    font-size: 50px;
+    text-align: center;
+    width: 564px;
+}
+
+.impact strong{
+    font-size: 70px;
+}
+
+/* World news */
+
+.worldNews{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 95px;
+}
+
+.new{
+    background: url(img/impacto1.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 1280px;
+    padding-top: 176px;
+    padding-bottom: 169px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.worldNewsTit{
+    margin-bottom: 40px;
+}
+
+.worldNewsTit p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #fff;
+}
+
+.worldNewsDes{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.worldNewsDes h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.learnMore{
+    color: #fff;
+    background-color: #FA6980;
+    padding: 14px 31px;
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+
+.news-cont{
+    max-width: 630px;
+}
+
+/* Impacto */
+.impacto{
+    display: flex;
+    justify-content: center;
+    column-gap: 110px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 159px;
+}
+
+.newImpacto > div >img{
+    display: none;
+}
+
+.impacto1{
+    background: url(img/impacto2.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 770px;
+    width: 770px;
+    margin-bottom: 40px;
+}
+
+.newImpacto{
+    color: #fff;
+    border-radius: 6px;
+}
+
+.newImpacto > div{
+    padding: 44px 40px;
+}
+
+.newTitle{
+    font-size: 16px;
+    margin-bottom: 236px;
+}
+
+.newDesc h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newDesc p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.newDesc div{
+    color: #CBD0D3;
+}
+
+.newDesc span img{
+    margin-right: 8px;
+}
+
+.impacto2{
+    background: url(img/impacto3.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 770px;
+    width: 770px;
+}
+
+.newImpatoChico{
+    margin-bottom: 40px;
+}
+
+.newImpatoChico > img{
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.descImge h5{
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+
+
+.descImge > span{
+    color: #A6ADB4;
+    font-size: 13px;
+}
+
+.time{
+    margin-right: 5px;
+}
+
+.dashed{
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1440px){
+    /* menu */
+    .nav{
+        max-width: 1146px;
+    }
+
+    /*carrusel*/
+    .anterior{
+        left: 51px;
+    }
+
+    .siguiente{
+        right: 51px;
+    }
+
+    .text-carrusel{
+        margin-left: 140px;
+    }
+
+    .img2 .text-carrusel{
+        margin-right: 140px;
+    }
+
+    /*nuestros empleados*/
+    .nEmpresas img{
+        width: 141px;
+    }
+
+    .nEmpresas{
+        column-gap: 47px;
+    }
+
+    .nEmpresas div:first-child img{
+        width: 167px;
+    }
+
+    .width-com{
+        max-width: 1160px;
+    }
+
+    .sociosCom{
+        column-gap: 30px;
+    }
+
+    .sociosCom img{
+        width: 90%;
+    }
+
+    /*footer*/
+
+    /*Quienes somos*/
+    /*somos un grupo*/
+    .cultura-bx{
+        padding: 100px 200px 50px 200px;
+    }
+
+    .culturaDiferencialCont h3{
+        font-size: 30px;
+    }
+
+    .localizaciones img{
+        width: 500px;
+    }
+
+    .somosGrupoCont{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1220px){
+    .g4hg{
+        max-width: 830px;
+        border: none;
+        padding: 0;
+    }
+
+    .footer{
+        grid-template-columns: auto auto auto;
+    }
+
+    .socialMedia{
+        grid-column: 3/4;
+    }
+
+    .test{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .guid{
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+
+    /*impacto social*/
+    /*world news*/
+    .new{
+        padding: 60px 40px 55px 40px;
+        width: auto;
+    }
+
+    /*quienes somos*/
+    /*somos grupo*/
+    .somosGrupo{
+        width: auto;
+    }
+
+    .somosGrupoCont{
+        min-width: 300px;
+        width: auto;
+        font-size: 16px !important;
+    }
+
+    /*contactanos input*/
+    .contactanosInput{
+        grid-template-columns: auto;
+        column-gap: 0;
+
+    }
+
+    .textarea{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 935px){
+    /*menu*/
+    .nav-logo img{
+        height: 37px;
+    }
+
+    .nav-list a{
+        font-size: 14px;
+    }
+
+    /*carrusel*/
+    .anterior{
+        top: 125px;
+        left: 25px;
+    }
+
+    .siguiente{
+        top: 125px;
+        right: 25px;
+    }
+
+    .text-carrusel{
+        margin-left: 80px;
+    }
+
+    .q-box{
+        font-size: 9px;
+        font-weight: bold;
+        width: 267px;
+        padding: 8px 17px;
+    }
+
+    .q-box img{
+        height: 9px;
+        width: 9px;
+    }
+
+    .unidadNegocios{
+        font-size: 25px;
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .alcance, .alcance strong, .quienesSomosTit, .impact, .impact strong{
+        font-size: 40px;
+    }
+
+    .carrusel, .contacto{
+        height: 350px;
+    }
+
+    /*grupo 4hg*/
+    .cant{
+        font-size: 40px
+    }
+
+    .um{
+        font-size: 21px;
+    }
+
+    .desc{
+        font-size: 19px;
+    }
+
+    .img-4hg{
+        height: 75%;
+    }
+    .g4hg-img{
+        justify-content: center;
+    }
+    /*nuestras empresas*/
+    .nEmpresas{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*footer*/
+    .logo-foot{
+        display: none;
+    }
+
+    .email input{
+        width: 208px;
+    }
+
+    .footer{
+        grid-template-columns: auto auto;
+    }
+
+    .socialMedia{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .info{
+        column-gap: 20px;
+    }
+
+    /*impacto social*/
+    /*world news*/
+    .newImpacto{
+        width: 500px;
+    }
+    
+    .newTitle{
+        margin-bottom: 100px;
+    }
+
+    .newDesc h4{
+        font-size: 16px;
+    }
+
+    .newDesc, .newDesc p{
+        font-size: 13px;
+    }
+
+    .newDesc img{
+        height: 13px;
+        width: 13px;
+    }
+}
+
+@media (max-width: 750px){
+    .nav-list{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        position: absolute;
+        top: 28px;
+        left: 30px;
+    }
+
+    .active-menu {
+        transform: translate(-400px);
+    }
+
+    .cont-menu {
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 100%;
+        display: block;
+        transition: 1.5s;
+    }
+
+    .cont-menu ul{
+        list-style: none;
+        margin-top: 100px;
+    }
+
+    .cont-menu a{
+        color: #959798;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .cont-menu li{
+        margin-bottom: 40px;
+    }
+
+    .nav-logo{
+        text-align: center;
+    }
+
+    .nav{
+        display: inline-block;
+        position: relative;
+    }
+
+    /*Carrusel*/
+    .sig-ant{
+        display: none;
+    }
+
+    .colores{
+        display: none;
+    }
+
+    .carrusel, .contacto{
+        height: 300px;
+    }
+
+    .mobile-bx{
+        display: block;
+        background-color: #EF412E;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        height: 72px;
+    } 
+
+    .mobile-bx p{
+        padding-top: 18px;
+    }
+
+    .sig-ant-mb{
+        display: flex;
+        column-gap: 4px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .circ{
+        width: 9px;
+        height: 9px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #707070;
+    }
+
+    .act{
+        background-color: #fff;
+    }
+
+    /*nuestras empresas*/
+    .nEmpresas{
+        grid-template-columns: auto auto;
+        column-gap: 41.5px;
+        row-gap: 40.8px;
+    }
+
+    .nEmpresas img{
+        width: 124px;
+    }
+
+    .nEmpresas div:first-child img{
+        width: 147px;
+    }
+
+    .width-com h2{
+        font-size: 30px;
+    }
+
+    .width-com h3{
+        font-size: 25px;
+    }
+
+    .sociosCom{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+
+    .sociosCom img{
+        width: 75%;
+    }
+
+    /*footer*/
+    .email{
+        display: none;
+    }
+
+    .footer{
+        grid-template-columns: auto;
+        row-gap: 60px;
+    }
+
+    .info{
+        grid-column: 1/2;
+        grid-template-columns: auto auto;
+        row-gap: 28px;
+        column-gap: 51px;
+    }
+
+    .test{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .guid{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .socialMedia{
+        grid-column: 1/2;
+    }  
+
+    /*impacto*/
+
+    .newImpacto{
+        background: none;
+        color: #000;
+        width: auto;
+    }
+
+    .newImpacto > div > img{
+        display: block;
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+    .newTitle{
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .newDesc h4, .newDesc p{
+        display: none;
+    }
+
+    .newTitle{
+        margin-bottom: 11px;
+    }
+
+    .newImpacto > div{
+        padding: 0;
+        width: auto;
+    }
+
+    .newDesc span{
+        color: #A6ADB4;
+    }
+
+    /*quienes somos*/
+    /*cultura diferencial*/
+    .cultura-bx{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .somosGrupoCont p{
+        font-size: 16px ;
+    }
+
+    .nuestrasOficinaCont img{
+        width: 350px;
+    }
+    
+    .localizaciones{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px){
+    .carrusel{
+        background-position: -250px;
+    }
+}
+
+@media (max-width: 550px){
+    /*contactanos input*/
+    .inputCont{
+        width: 100%;
+    }
+
+    .contactanos h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .carrusel{
+        background-position: -500px;
+    }
+
+    .somosGrupoCont p{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .somosGrupoCont{
+        padding: 0 20px;
+    }
+
+    .cultura-bx{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
